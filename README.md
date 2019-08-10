@@ -13,8 +13,8 @@ Para pre-procesado incluye:
 
     algunos NaNs y zeros
     varios valores categóricos que se deben convertir
-    posibles outliers (días excepcionales, eventos deportivos, cierres anticipados por temas fuera de control, etc.)
-    reducción de dimensiones (algunos features están relacionados, por ejemplo semana del año con "es quincena?"
+    posibles outliers (días excepcionales, eventos deportivos, cierres anticipados, etc.)
+    reducción de dimensiones (algunos features de fecha pueden estar relacionados)
  
 Incluye información estacional de la fecha, lo que se cree influye en la cantidad de clientes del día
 
