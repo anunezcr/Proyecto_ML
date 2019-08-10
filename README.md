@@ -4,9 +4,9 @@ Proyecto del Curso Machine Learning - FUNDATEC
 **********************************************************************************
 
 Cada línea contiene información de un día (una fecha de un año "cualquiera"), para una sucursal
-  más de 22.000 instancias
-  11 features
-  2 columnas con valores a pronosticar
+  a. más de 22.000 instancias
+  b. 11 features  
+  c. 2 columnas con valores a pronosticar
 
 Para pre-procesado incluye:
   algunos NaNs y zeros
