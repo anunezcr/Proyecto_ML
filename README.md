@@ -8,7 +8,10 @@ Cada línea contiene información de un día (una fecha de un año "cualquiera")
       más de 22.000 instancias
       11 features  
       2 columnas con valores a pronosticar
-
+      
+      Son datos reales, aplicando cierta escala por confidencialidad. 
+      Pero las tendencias, relaciones, las fechas, y los features son reales
+      
 Para pre-procesado incluye:
 
     algunos NaNs y zeros
