@@ -34,14 +34,16 @@ Información de clientes atendidos (para pronosticar)
     clientes totales para ese día y esa sucursal
     cantidad de clientes niños (relevante para el tipo de negocio)
   
-Planteamiento hipotético del problema:
+# Planteamiento hipotético del problema:
 
-  1. Regresión:
-  Pronosticar la  cantidad de clientes totales y clientes niños que serán atendidos en fechas futuras
+  ## 1. Regresión:
+  
+            Pronosticar la  cantidad de clientes totales y clientes niños que serán atendidos en fechas futuras
   
   **********************************************************************************
   
-  2. Clasificación
+  ## 2. Clasificación
+  
     2.1 Interés para el gerente de Operaciones:
     Establecer 3 clusters según cantidad de clientes totales para fechas futuras
       Rojo:   volumen alto, requiere personal adicional, supervisión/consultoría presencial, y aumentar previsión de materia prima o insumos
