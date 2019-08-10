@@ -42,7 +42,7 @@ Información de clientes atendidos (para pronosticar)
   
   **********************************************************************************
   
-  ## 2. Clasificación
+  ## 2. Clasificación:
   
     2.1 Interés para el gerente de Operaciones:
     
