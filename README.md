@@ -1,4 +1,4 @@
-# Proyecto_ML
+# Proyecto ML
 Proyecto del Curso Machine Learning - FUNDATEC
 
 **********************************************************************************
