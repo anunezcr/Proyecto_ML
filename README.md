@@ -3,33 +3,39 @@ Proyecto del Curso Machine Learning - FUNDATEC
 
 **********************************************************************************
 
-Cada línea contiene información de un día (una fecha de un año "cualquiera"), para una sucursal
-  a. más de 22.000 instancias
-  b. 11 features  
-  c. 2 columnas con valores a pronosticar
+Cada línea contiene información de un día (una fecha de un año "cualquiera"), para una sucursal      
+
+      más de 22.000 instancias
+      11 features  
+      2 columnas con valores a pronosticar
 
 Para pre-procesado incluye:
-  algunos NaNs y zeros
-  varios valores categóricos que se deben convertir
-  posibles outliers (días excepcionales, eventos deportivos, cierres anticipados por temas fuera de control, etc.)
-  reducción de dimensiones (algunos features están relacionados, por ejemplo semana del año con "es quincena?"
+
+    algunos NaNs y zeros
+    varios valores categóricos que se deben convertir
+    posibles outliers (días excepcionales, eventos deportivos, cierres anticipados por temas fuera de control, etc.)
+    reducción de dimensiones (algunos features están relacionados, por ejemplo semana del año con "es quincena?"
  
 Incluye información estacional de la fecha, lo que se cree influye en la cantidad de clientes del día
-  si es quincena
-  si es un día feriado
-  el dia de la semana
-  la semana del año
-  otros
+
+    si es quincena
+    si es un día feriado
+    el dia de la semana
+    la semana del año
+    otros
  
 Otros datos:
-  cantidad de cajas registradoras utilizadas en el día
-  cantidad de horas de operación para ese día, en esa sucursal
+  
+    cantidad de cajas registradoras utilizadas en el día
+    cantidad de horas de operación para ese día, en esa sucursal
   
 Información de clientes atendidos (para pronosticar)
-  clientes totales para ese día y esa sucursal
-  cantidad de clientes niños (relevante para el tipo de negocio)
+  
+    clientes totales para ese día y esa sucursal
+    cantidad de clientes niños (relevante para el tipo de negocio)
   
 Planteamiento hipotético del problema:
+
   1. Regresión:
   Pronosticar la  cantidad de clientes totales y clientes niños que serán atendidos en fechas futuras
   
