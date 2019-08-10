@@ -44,16 +44,19 @@ Información de clientes atendidos (para pronosticar)
   
   ## 2. Clasificación
   
-    2.1 Interés para el gerente de Operaciones:
+    ### 2.1 Interés para el gerente de Operaciones:
+    
     Establecer 3 clusters según cantidad de clientes totales para fechas futuras
       Rojo:   volumen alto, requiere personal adicional, supervisión/consultoría presencial, y aumentar previsión de materia prima o insumos
       Naranja:volumen medio, requiere reforzar procedimientos y controles operativos
       Verde:  volumne bajo, no requiere atención especial
       
-    2.2 Interés para departamento que atiende la experiencia de niños:
+    ### 2.2 Interés para departamento que atiende la experiencia de niños:
+    
     Clusters según cantidad de clientes niños
     Rojo, Naranja, Verde para tomar decisiones específicas de atención a este tipo de cliente
       
-    2.3 Se sospecha que la relación entre clientes totales y clientes niños es independiente, y varía de una sucursal a otra
+    ### 2.3 Relación entre clientes totales y clientes niños
+    Se sospecha que la relación entre clientes totales y clientes niños es independiente, y varía de una sucursal a otra
     Un rojo operativo no necesariamente es rojo niños
     ¿El modelo de Clasificación puede confirmar dicha sospecha?
