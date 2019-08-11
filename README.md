@@ -47,6 +47,9 @@ Información de clientes atendidos (para pronosticar)
   
   ## 2. Clasificación:
   
+  Obtener clusters de clases no etiquetadas
+  (no supervisado)
+  
     2.1 Interés para el gerente de Operaciones:
     
     Establecer 3 clusters según cantidad de clientes totales para fechas futuras
@@ -55,6 +58,7 @@ Información de clientes atendidos (para pronosticar)
       Verde:  volumne bajo, no requiere atención especial
       
     2.2 Interés para departamento que atiende clientes vip:
+    (igual que 2.1 pero para el subconjunto vip)
     
     Clusters según cantidad de clientes vip
     Rojo, Naranja, Verde para tomar decisiones específicas de atención a este tipo de cliente
@@ -63,4 +67,5 @@ Información de clientes atendidos (para pronosticar)
     
     Se sospecha que la relación entre clientes totales y clientes vip es independiente, y varía de una sucursal a otra
     Un rojo operativo no necesariamente es rojo vip
+    Esto permitiría distribuir supervisores generales y supervisores vip en distintas tiendas para un día determinado
     ¿El modelo de Clasificación puede confirmar dicha sospecha?
