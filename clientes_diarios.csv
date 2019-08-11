@@ -1,4 +1,4 @@
-id_tienda,tipo_tienda,provincia,supervisor,mes_del_anio,semana_del_anio,es_quincena,es_feriado,dia_de_la_semana,horas_operacion,pos_en_uso,clientes_totales,clientes_ninios
+id_tienda,tipo_tienda,provincia,supervisor,mes_del_anio,semana_del_anio,es_quincena,es_feriado,dia_de_la_semana,horas_operacion,pos_en_uso,clientes_totales,clientes_vip
 12,FS,SAN JOSE,2015622_080,1,1, VERDADERO ,Anio Nuevo,Lunes,11,4,210,23
 12,FS,SAN JOSE,2015622_080,1,1, VERDADERO , NO ,Martes,11,4,306,17
 12,FS,SAN JOSE,2015622_080,1,1, VERDADERO , NO ,Miercoles,11,4,203,12
