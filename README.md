@@ -35,13 +35,13 @@ Otros datos:
 Información de clientes atendidos (para pronosticar)
   
     clientes totales para ese día y esa sucursal
-    cantidad de clientes niños (relevante para el tipo de negocio)
+    cantidad de clientes vip (relevante para el tipo de negocio). Es un subconjunto del total de clientes
   
 # Planteamiento hipotético del problema:
 
   ## 1. Regresión:
   
-            Pronosticar la  cantidad de clientes totales y clientes niños que serán atendidos en fechas futuras
+            Pronosticar la  cantidad de clientes totales y clientes vip que serán atendidos en fechas futuras
   
   **********************************************************************************
   
@@ -54,13 +54,13 @@ Información de clientes atendidos (para pronosticar)
       Naranja:volumen medio, requiere reforzar procedimientos y controles operativos
       Verde:  volumne bajo, no requiere atención especial
       
-    2.2 Interés para departamento que atiende la experiencia de niños:
+    2.2 Interés para departamento que atiende clientes vip:
     
-    Clusters según cantidad de clientes niños
+    Clusters según cantidad de clientes vip
     Rojo, Naranja, Verde para tomar decisiones específicas de atención a este tipo de cliente
       
-    2.3 Relación entre clientes totales y clientes niños
+    2.3 Relación entre clientes totales y clientes vip
     
-    Se sospecha que la relación entre clientes totales y clientes niños es independiente, y varía de una sucursal a otra
-    Un rojo operativo no necesariamente es rojo niños
+    Se sospecha que la relación entre clientes totales y clientes vip es independiente, y varía de una sucursal a otra
+    Un rojo operativo no necesariamente es rojo vip
     ¿El modelo de Clasificación puede confirmar dicha sospecha?
